@@ -158,6 +158,12 @@ $ pipenv --version
 pipenv, version 2018.10.13
 ```
 
+Python has its own way of installing Python-specific packages, called "pip". To use the Python 3 version of pip, we have to run `pip3`. Run the following to install a few more tools we'll need:
+
+```
+$ pip3 install flake8 autopep8 pep8-naming isort
+```
+
 ## Visual Studio Code
 
 [Visual Studio Code](https://code.visualstudio.com/) (VSCode) is the program we will primarily use to edit code. Go to [the VSCode homepage](https://code.visualstudio.com/) and download it. Once downloaded, drag and drop the Visual Studio Code application file into your Applications folder.
@@ -165,7 +171,3 @@ pipenv, version 2018.10.13
 ## Google Chrome
 
 [Google Chrome](https://www.google.com/chrome/) is the browser we will use in class. Download it. Once downloaded, drag and drop the Google Chrome application file into your Applications folder.
-
-```
-
-```
