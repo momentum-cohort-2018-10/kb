@@ -1,2 +1,4 @@
-# kb
- Student knowledge base for the October 29 Momentum cohort.
+# Student Knowledge Base
+
+- [Setting up your computer](mac-setup.md)
+- [Student Guidelines](student-guidelines/)
