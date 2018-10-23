@@ -166,8 +166,16 @@ $ pip3 install flake8 autopep8 pep8-naming isort
 
 ## Visual Studio Code
 
-[Visual Studio Code](https://code.visualstudio.com/) (VSCode) is the program we will primarily use to edit code. Go to [the VSCode homepage](https://code.visualstudio.com/) and download it. Once downloaded, drag and drop the Visual Studio Code application file into your Applications folder.
+[Visual Studio Code](https://code.visualstudio.com/) (VSCode) is the program we will primarily use to edit code. To install it, run:
+
+```
+brew cask install visual-studio-code
+```
 
 ## Google Chrome
 
-[Google Chrome](https://www.google.com/chrome/) is the browser we will use in class. Download it. Once downloaded, drag and drop the Google Chrome application file into your Applications folder.
+[Google Chrome](https://www.google.com/chrome/) is the browser we will use in class. To install it, run:
+
+```
+brew cask install google-chrome
+```
