@@ -18,6 +18,10 @@
 
 - [Really Friendly Command Line Intro](https://drive.google.com/file/d/1_2LTtR6f5bFCC5wjFZc9ILA7vmru7ShK/view)
 
+### Assignment
+
+[Setup git repo](https://classroom.github.com/a/UBDJDeWQ)
+
 ## Day 2
 
 _Question of the day:_ How would you tell a computer to find the square root of a number?
@@ -34,6 +38,10 @@ _Question of the day:_ How would you tell a computer to find the square root of 
 
 Suppose the cover price of a book is $24.95, but bookstores get a 40% discount. Shipping costs $3 for the first copy and 75 cents for each additional copy. What is the total wholesale cost for 60 copies?
 
+### Assignment
+
+[House hunting](https://classroom.github.com/a/xM9D2ApD)
+
 ## Day 3
 
 _Question of the day:_ How would you tell a computer to find the longest word in a sentence?
@@ -47,6 +55,10 @@ _Question of the day:_ How would you tell a computer to find the longest word in
 
 Write a function to get the nth Fibonacci number.
 
+### Assignment
+
+[Detect if text is a palindrome](https://classroom.github.com/a/NhQC8qh7)
+
 ## Day 4
 
 _Question of the day:_ How do you take a list of words and filter out all the words with more than 10 letters?
@@ -58,3 +70,7 @@ _Question of the day:_ How do you take a list of words and filter out all the wo
 ### Exercise
 
 Count the number of times each letter appears in a word and return it as a dictionary.
+
+### Assignment
+
+[Mystery Word](https://classroom.github.com/a/ooPnsA7f)
