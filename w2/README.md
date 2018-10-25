@@ -2,36 +2,24 @@
 
 ## Day 1
 
-*Question of the day:* How would you get the sum of all prime numbers between 1 and 100?
+_Question of the day:_ How would you write a program to make correct change (as in a cashier giving you coins, not changing the world)?
 
-### Goals
-
-* Test-driven development
-* List comprehensions
-* Dictionary comprehensions
-* Set comprehensions
-* Exceptions
-* *args/**kwargs
-* vector/matrix math
-
+- Modules
+- Writing tests with pytest
+- Exceptions
 
 ### Exercise
 
-[Calculate grades](Exercise 1 - Calculate grades.ipynb)
-
 ### Assignment
 
-[Vectors and matrices](https://github.com/tiyd-python-2015-05/vectors-and-matrices)
+Currency converter
 
 ## Day 2
 
-*Question of the day:* ???
+_Question of the day:_ How would you write a program to find all the anagrams of a phrase?
 
-### Goals
-
-* OO design
-* Writing your own tests
-* Tool Time!
+- Creating classes and objects
+- Tool Time!
 
 ### Exercise
 
@@ -39,35 +27,32 @@
 
 ### Homework
 
-Game of Sticks
+Cipher
 
 ## Day 3
 
-*Question of the day:* ???
+_Question of the day:_ What classes would you need to make a blackjack game? How would you calculate the score for a hand?
 
 ### Goals
 
-* More OO design
-* Writing your own tests
-* Byte arrays ??
+- Object-oriented design
+- Data classes
 
 ### Exercise
 
-??? Maybe encryption
-
 ### Homework
 
-Revisit vectors and matrices
+Pig
 
 ## Day 4
 
-*Question of the day:* ???
+_Question of the day:_ How would you write a program to recommend items someone might like to buy, given their purchase history, like on Amazon?
 
 ### Goals
 
-* Even more OO design
-* Probabilities
-* Introduction to recommendation engines
+- Reading and parsing data
+- Introduction to recommendation engines
+- Bonus: SQLite
 
 ### Exercise
 
@@ -77,19 +62,6 @@ Revisit vectors and matrices
 
 Recommendation engine
 
----
-
-
-## Topics
-
-- sets
-- named tuples
-
-### Maybe
-
-- decorators
-- generators/laziness
-
 ## Examples
 
 - encryption
@@ -97,8 +69,6 @@ Recommendation engine
 - recommendation engine
 - AI
 - age distribution
-
-
 
 # Recommendation Engine
 

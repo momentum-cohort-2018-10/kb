@@ -2,6 +2,8 @@
 
 ## Day 1
 
+_Question of the day:_ What does a developer do all day?
+
 - Developer setup
 - Command line basics (.bash_profile, cat, less, man)
 - Git concepts and commands (clone, add, commit, push)

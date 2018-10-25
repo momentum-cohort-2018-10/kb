@@ -14,4 +14,14 @@ By the end of this week, students should be comfortable with:
 - Functions
 - Sequences
 - Dictionaries
+
+## [Week 2](w2/README.md)
+
+By the end of this week, students should be comfortable with:
+
+- Writing tests
 - Modules
+- Exceptions
+- Classes and objects
+- Object-oriented design
+- Reading data from files
