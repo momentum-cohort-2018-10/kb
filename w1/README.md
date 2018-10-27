@@ -1,5 +1,38 @@
 # Week 1
 
+## Teams
+
+### Team A
+
+- _Ardra Salemy_
+- Max Ehiorbo
+- James Landor
+- Crystal Ramirez
+- Steve Marks
+
+### Team B
+
+- _Peter Oas_
+- David Dean
+- Fan Huang
+- Deanna Jacobs
+- Dave Sedgwick
+
+### Team C
+
+- _Rondale Davis_
+- Sowmya Aji
+- Taylor Homes
+- Josh Torain
+- Tiana Horn
+
+### Team D
+
+- _Meagan Glatz_
+- Keely Kirkpatrick
+- Sam LoCascio
+- Sean Houde
+
 ## Day 1
 
 _Question of the day:_ What does a developer do all day?
@@ -18,6 +51,8 @@ _Question of the day:_ What does a developer do all day?
 
 ### References
 
+- [Command Line slides](command-line.md)
+- [Git slides](git.pdf)
 - [Really Friendly Command Line Intro](https://drive.google.com/file/d/1_2LTtR6f5bFCC5wjFZc9ILA7vmru7ShK/view)
 
 ### Assignment
@@ -44,6 +79,11 @@ Suppose the cover price of a book is $24.95, but bookstores get a 40% discount. 
 
 [House hunting](https://classroom.github.com/a/xM9D2ApD)
 
+### References
+
+- [A Byte of Python](https://python.swaroopch.com/)
+- [Think Python](http://greenteapress.com/thinkpython2/html/index.html)
+
 ## Day 3
 
 _Question of the day:_ How would you tell a computer to find the longest word in a sentence?
@@ -60,6 +100,11 @@ Write a function to get the nth Fibonacci number.
 ### Assignment
 
 [Detect if text is a palindrome](https://classroom.github.com/a/NhQC8qh7)
+
+### References
+
+- [Functions in _A Byte of Python_](https://python.swaroopch.com/functions.html) - will help with understanding the basics of functions
+- Chapters 3, 5, and 6 of _Think Python_ - will help with how to best use functions
 
 ## Day 4
 
