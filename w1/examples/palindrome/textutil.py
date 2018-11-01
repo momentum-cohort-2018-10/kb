@@ -4,7 +4,11 @@ def clean_text(text):
     """
     new_text = ""
     text = text.lower()
-    for character in text:
-        if character.isalpha():
-            new_text = new_text + character
+    # new_text = "".join([char for char in text if char.isalpha()])
+    for char in text:
+        if char.isalpha():
+            new_text = new_text + char
     return new_text
+
+
+
