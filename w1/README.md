@@ -1,38 +1,5 @@
 # Week 1
 
-## Teams
-
-### Team A
-
-- _Ardra Salemy_
-- Max Ehiorbo
-- James Landor
-- Crystal Ramirez
-- Steve Marks
-
-### Team B
-
-- _Peter Oas_
-- David Dean
-- Fan Huang
-- Deanna Jacobs
-- Dave Sedgwick
-
-### Team C
-
-- _Rondale Davis_
-- Sowmya Aji
-- Taylor Homes
-- Josh Torain
-- Tiana Horn
-
-### Team D
-
-- _Meagan Glatz_
-- Keely Kirkpatrick
-- Sam LoCascio
-- Sean Houde
-
 ## Day 1
 
 _Question of the day:_ What does a developer do all day?
@@ -116,9 +83,9 @@ Write a function to get the nth Fibonacci number.
 
 _Question of the day:_ How do you take a list of words and filter out all the words with more than 10 letters?
 
-- More string methods
 - Dictionaries
 - Files
+- List comprehensions
 
 ### Exercise
 
@@ -127,3 +94,8 @@ Count the number of times each letter appears in a word and return it as a dicti
 ### Assignment
 
 [Mystery Word](https://classroom.github.com/a/ooPnsA7f)
+
+### References
+
+- [`random` module](https://docs.python.org/3/library/random.html)
+- [Mystery Word hints](mystery-word-hints.md)
