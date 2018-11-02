@@ -69,8 +69,3 @@ Recommendation engine
 - recommendation engine
 - AI
 - age distribution
-
-# Recommendation Engine
-
-1. Get users with item recommendations (nested dict: {user: {item: rating, ...}, user: ...})
-   Maybe a matrix with users as columns and items as rows (or vice versa?)
