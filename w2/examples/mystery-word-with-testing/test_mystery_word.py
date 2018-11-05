@@ -1,5 +1,4 @@
-
-from mystery_word import word_with_guesses, easy_words, medium_words, add_to_guesses
+from mystery_word import easy_words, medium_words, add_to_guesses
 
 
 def test_add_to_guesses_with_correct_letter():

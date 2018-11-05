@@ -15,6 +15,17 @@ Pig Latin
 
 [Currency converter](https://classroom.github.com/a/kWUtqKI7)
 
+**ERRATA:**
+
+- `rates` is a list of tuples, not a dictionary.
+- `from` is a reserved word, so use `original` or `_from` for the parameter indicating the currency to change from.
+
+### References
+
+- [pytest](https://docs.pytest.org/en/latest/)
+- [Getting started with testing in Python](https://realpython.com/python-testing/)
+- [Debugging with pdb](https://realpython.com/python-debugging-pdb/)
+
 ## Day 2
 
 _Question of the day:_ How would you write a program to find all the anagrams of a phrase?
