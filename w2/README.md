@@ -4,7 +4,6 @@
 
 _Question of the day:_ How would you write a program to make correct change (as in a cashier giving you coins, not changing the world)?
 
-- Pipenv
 - Writing tests with pytest
 - Exceptions
 
@@ -28,7 +27,7 @@ Cipher
 
 ### Homework
 
-Money class + currency converter class
+[Object-oriented money](https://classroom.github.com/a/YWWdcMhP)
 
 ## Day 3
 
@@ -36,6 +35,7 @@ _Question of the day:_ What classes would you need to make a blackjack game? How
 
 ### Goals
 
+- Pipenv
 - Object-oriented design
 
 ### Exercise
