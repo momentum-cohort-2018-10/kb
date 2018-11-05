@@ -4,30 +4,31 @@
 
 _Question of the day:_ How would you write a program to make correct change (as in a cashier giving you coins, not changing the world)?
 
-- Modules
+- Pipenv
 - Writing tests with pytest
 - Exceptions
 
 ### Exercise
 
+Pig Latin
+
 ### Assignment
 
-Currency converter
+[Currency converter](https://classroom.github.com/a/kWUtqKI7)
 
 ## Day 2
 
 _Question of the day:_ How would you write a program to find all the anagrams of a phrase?
 
 - Creating classes and objects
-- Tool Time!
 
 ### Exercise
 
-???
+Cipher
 
 ### Homework
 
-Cipher
+Money class + currency converter class
 
 ## Day 3
 
@@ -36,13 +37,12 @@ _Question of the day:_ What classes would you need to make a blackjack game? How
 ### Goals
 
 - Object-oriented design
-- Data classes
 
 ### Exercise
 
 ### Homework
 
-Pig
+[Pig](https://classroom.github.com/a/_Sa3g1O9)
 
 ## Day 4
 
@@ -52,20 +52,7 @@ _Question of the day:_ How would you write a program to recommend items someone 
 
 - Reading and parsing data
 - Introduction to recommendation engines
-- Bonus: SQLite
-
-### Exercise
-
-???
 
 ### Homework
 
-Recommendation engine
-
-## Examples
-
-- encryption
-- probabilities
-- recommendation engine
-- AI
-- age distribution
+[Recommendation engine](https://classroom.github.com/a/ddgmUh9o)
