@@ -42,6 +42,15 @@ def test_new_deck_has_right_cards_in_it():
     assert Card('A', 'Spades') in deck.cards
 
 
+def test_can_take_card_from_deck():
+    deck = Deck()
+    deck.shuffle()
+
+    card = deck.take_card()
+    assert type(card) is Card
+    assert card not in deck.cards
+
+
 def test_new_hand_has_no_cards():
     hand = Hand()
     assert len(hand.cards) == 0
@@ -52,6 +61,13 @@ def test_can_add_card_to_hand():
     hand.add(Card(9, "Clubs"))
     assert len(hand.cards) == 1
     assert Card(9, "Clubs") in hand.cards
+
+
+def test_hand_to_str():
+    hand = Hand()
+    hand.add(Card(9, "Clubs"))
+    hand.add(Card(3, "Diamonds"))
+    assert str(hand) == "9 of Clubs, 3 of Diamonds (12)"
 
 
 def test_can_calculate_score():
