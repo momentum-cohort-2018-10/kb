@@ -46,7 +46,6 @@ _Question of the day:_ What classes would you need to make a blackjack game? How
 
 ### Goals
 
-- Pipenv
 - Object-oriented design
 
 ### Exercise
@@ -61,6 +60,7 @@ _Question of the day:_ How would you write a program to recommend items someone 
 
 ### Goals
 
+- Pipenv
 - Reading and parsing data
 - Introduction to recommendation engines
 

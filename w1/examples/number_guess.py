@@ -12,18 +12,18 @@ def within_range(number, min=None, max=None):
         return False
     return True
 
-print("Peter was here")
 
 def play_game(min, max):
-    unused_variable = 1
     print_instructions()
     number_to_guess = random.randint(min, max)
+    print(number_to_guess)
     number_guessed = False
     guesses = 0
 
     while not number_guessed and guesses < 10:
-        guess = input_integer("What's your guess? ", min=1, max=1000)
+        guess = input("What's your guess? ")
         guesses += 1
+
         if guess == number_to_guess:
             print("You got it right!")
             number_guessed = True
