@@ -48,8 +48,6 @@ _Question of the day:_ What classes would you need to make a blackjack game? How
 
 - Object-oriented design
 
-### Exercise
-
 ### Homework
 
 [Pig](https://classroom.github.com/a/_Sa3g1O9)
@@ -60,10 +58,9 @@ _Question of the day:_ How would you write a program to recommend items someone 
 
 ### Goals
 
-- Pipenv
+- Pipenv and third-party libraries
 - Reading and parsing data
-- Introduction to recommendation engines
 
 ### Homework
 
-[Recommendation engine](https://classroom.github.com/a/ddgmUh9o)
+[Pathfinder](https://classroom.github.com/a/RguF3tv6)
