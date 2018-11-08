@@ -64,3 +64,10 @@ _Question of the day:_ How would you write a program to recommend items someone 
 ### Homework
 
 [Pathfinder](https://classroom.github.com/a/RguF3tv6)
+
+### References
+
+- [Pipenv](https://pipenv.readthedocs.io/en/latest/)
+- [Direnv](https://direnv.net/)
+- [The Hitchhiker's Guide to Python](https://docs.python-guide.org/)
+- [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/)
