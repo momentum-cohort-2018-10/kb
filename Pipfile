@@ -6,6 +6,7 @@ name = "pypi"
 [packages]
 jupyter = "*"
 pytest = "*"
+pillow = "*"
 
 [dev-packages]
 yapf = "*"
