@@ -4,12 +4,14 @@
 
 _Question of the day:_
 
-- Installing Django
-- Serving a static page through Django
-- Static files
 - HTML
+- Styles of CSS frameworks
+- Installing Django
 
 ### Assignment
+
+- [Build a small business site](https://classroom.github.com/a/EW0480hc)
+- [Start Hello Web App](https://classroom.github.com/a/BSj1UPoi)
 
 ### References
 
@@ -21,10 +23,10 @@ _Question of the day:_
 
 _Question of the day:_
 
+- Serving a static page through Django
+- Static files
 - Django function views
 - Django template tags
-- Getting information from the URL
-- GET and POST requests and params
 
 ### Assignment
 
@@ -34,7 +36,8 @@ _Question of the day:_
 
 _Question of the day:_
 
--
+- Getting information from the URL
+- GET and POST requests and params
 
 ### Assignment
 
@@ -44,7 +47,7 @@ _Question of the day:_
 
 _Question of the day:_
 
--
+- Introduction to databases
 
 ### Assignment
 
