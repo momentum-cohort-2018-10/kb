@@ -3,7 +3,7 @@
 - [Setting up your computer](mac-setup.md)
 - [Student Guidelines](student-guidelines/)
 
-## [Week 1](w1/README.md)
+## [Week 1](w1/)
 
 By the end of this week, students should be comfortable with:
 
@@ -15,7 +15,7 @@ By the end of this week, students should be comfortable with:
 - Sequences
 - Dictionaries
 
-## [Week 2](w2/README.md)
+## [Week 2](w2/)
 
 By the end of this week, students should be comfortable with:
 
@@ -25,3 +25,12 @@ By the end of this week, students should be comfortable with:
 - Classes and objects
 - Object-oriented design
 - Reading data from files
+
+## [Week 3](w3/)
+
+By the end of this week, students should be comfortable with:
+
+- HTML
+- CSS Frameworks
+- Creating a new Django app
+- Serving simple dynamic pages through Django
