@@ -2,7 +2,7 @@
 
 ## Day 1
 
-_Question of the day:_
+_Question of the day:_ How would you present and style a recipe on a web page?
 
 - HTML
 - Styles of CSS frameworks
@@ -21,34 +21,43 @@ _Question of the day:_
 
 ## Day 2
 
-_Question of the day:_
+_Question of the day:_ How does a web page get to your computer?
 
+- What do web servers do?
 - Serving a static page through Django
 - Static files
+- Web requests and responses
 - Django function views
 - Django template tags
 
 ### Assignment
 
+- Contacts directory
+
 ### References
 
 ## Day 3
 
-_Question of the day:_
+_Question of the day:_ What does it mean to have "a profile" on a website?
 
+- Models and databases
 - Getting information from the URL
-- GET and POST requests and params
 
 ### Assignment
+
+- Hello Web App
 
 ### References
 
 ## Day 4
 
-_Question of the day:_
+_Question of the day:_ How can you ensure a user is never allowed to add HTML to your site?
 
-- Introduction to databases
+- GET and POST requests and params
+- Django forms
 
 ### Assignment
+
+- Hello Web App
 
 ### References
