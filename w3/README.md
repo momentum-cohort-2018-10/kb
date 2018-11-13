@@ -15,9 +15,17 @@ _Question of the day:_ How would you present and style a recipe on a web page?
 
 ### References
 
+- [A Brief History of Markup](a_brief_history_of_markup.pdf)
+
 - Utility CSS
-  - [Tailwind CSS](https://tailwindcss.com/docs/what-is-tailwind/)
+
   - [Tachyons](http://tachyons.io/)
+  - [Learn Tachyons](https://github.com/dwyl/learn-tachyons)
+  - [Tailwind CSS](https://tailwindcss.com/docs/what-is-tailwind/)
+
+- CSS Component Libraries
+  - [Bulma](https://bulma.io/)
+  - [Bootstrap](https://getbootstrap.com/)
 
 ## Day 2
 

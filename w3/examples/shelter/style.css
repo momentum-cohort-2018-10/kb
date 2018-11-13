@@ -1,0 +1,183 @@
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+
+body {
+  /*background-color: #f2f2f2;*/
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  color: #0A090C;
+  margin: 0;
+}
+/*90DDF0*/
+/*083D77*/
+
+.container {
+  max-width: 1200px;
+  background-color: white;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+
+.site-logo {
+  display: inline-block;
+}
+
+.site-header {
+  background-color: #083D77;
+  color: white;
+  padding: 10px 30px;
+  border-bottom: 3px solid #90DDF0;
+}
+
+.main-menu {
+  float: right;
+  margin-top: 20px;
+}
+
+.main-menu__list {
+  list-style-type: none;
+}
+
+.main-menu__list-item {
+  display: inline;
+  margin-right: 10px;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+}
+
+.row {
+  clear: both;
+  overflow: auto;
+}
+
+.animal {
+  width: 360px;
+  height: 400px;
+  padding: 10px;
+  float: left;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  /* border: 1px solid gray; */
+}
+
+.animal img {
+  max-width: 360px;
+}
+
+.search {
+  background-color: #F0EDEE;
+  overflow: auto;
+  margin: 1rem 0;
+  padding: 0 1rem;
+}
+
+.search__form {
+  width: 75%;
+}
+
+.search__title {
+  margin-bottom: 0;
+}
+
+.search__choice {
+  width: 25%;
+  float: left;
+  margin-bottom: 1rem;
+}
+
+.search__choice h4 {
+  margin-bottom: 0;
+}
+
+.search__choice label {
+  display: block;
+}
+
+.search__choice input {
+  margin-right: 0.5rem;
+}
+
+.profiles__container{
+  margin: 0 auto;
+}
+
+.animal__name {
+  font-family: Oswald, sans-serif;
+  font-weight: bold;
+}
+
+.animal__trait {
+  display: inline-block;
+  margin: 2px 0;
+  border-radius: 10px;
+  background-color: #90DDF0;
+  padding: 2px 5px;
+  font-size: 0.8rem;
+}
+
+.footer {
+  max-width: 1320px;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+.footer__block {
+  float: left;
+  width: 33.33%;
+  height: 300px;
+  display: block;
+  margin: 30px 0 0;
+  padding: 0;
+  text-align: center;
+  position: relative;
+}
+
+.footer__block--donate {
+  background:
+    linear-gradient(rgba(0, 0, 255, 0.3), rgba(0, 0, 255, 0.3)),
+    no-repeat center/cover url(donate.jpg);
+}
+
+.footer__block--donate:hover {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)),
+    no-repeat center/cover url(donate.jpg);
+}
+
+.footer__block--volunteer {
+  background:
+    linear-gradient(rgba(0, 0, 255, 0.3), rgba(0, 0, 255, 0.3)),
+    no-repeat center/cover url(volunteer.jpg);
+}
+
+.footer__block--volunteer:hover {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0)),
+    no-repeat center/cover url(volunteer.jpg);
+}
+
+.footer__block--location {
+  background:
+    linear-gradient(rgba(0, 0, 255, 0.3), rgba(0, 0, 255, 0.3)),
+    no-repeat center/cover url(location.png);
+}
+
+.footer__block--location:hover {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0)),
+    no-repeat center/cover url(location.png);
+}
+
+
+.footer__block a {
+  font-family: Oswald, sans-serif;
+  text-decoration: none;
+  font-size: 3rem;
+  display: block;
+  padding: 0;
+  margin: 0;
+  margin-top: 100px;
+  color: white;
+}
