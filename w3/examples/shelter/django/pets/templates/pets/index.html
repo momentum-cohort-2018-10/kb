@@ -1,16 +1,17 @@
+{% load staticfiles %}
 <!DOCTYPE html>
 <html>
 
 <head>
   <meta charset="UTF-8">
-  <title>Happy Valley Shelter - Adopt a Dog</title>
+  <title>{{ shelter_name }} - Adopt a Dog</title>
   <link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css" />
 </head>
 
 <body class="sans-serif">
   <header class="pv3 bg-navy white bb bw2 b--washed-green">
     <div class="flex justify-between items-center mw8 center">
-      <h1 class="site-logo">Happy Valley Shelter</h1>
+      <h1 class="site-logo">{{ shelter_name }}</h1>
       <nav class="main-menu">
         <ul class="main-menu__list list pl0 tr">
           <li class="main-menu__list-item ph2 dib"><a class="nav-link white" href="#">About</a></li>
@@ -62,130 +63,20 @@
     </section>
     <section>
       <div class="flex flex-wrap">
-        <div class="animal w-30 mr3 mt3 mb3">
-          <img src="beans.jpg" alt="Beans, a black-and-white shaggy dog">
-          <div class="animal__name fw6 tracked-tight f4">Beans</div>
-          <div class="animal__traits">
-            <span class="animal__trait br-pill pa1 dib mv1 bg-lightest-blue">Adult</span>
-            <span class="animal__trait br-pill pa1 dib mv1 bg-lightest-blue">Male</span>
-            <span class="animal__trait br-pill pa1 dib mv1 bg-lightest-blue">Medium</span>
-            <span class="animal__trait br-pill pa1 dib mv1 bg-lightest-blue">Easygoing</span>
-            <span class="animal__trait br-pill pa1 dib mv1 bg-lightest-blue">Good with cats</span>
+        {% for dog in dogs %}
+        <div class="w-30 mr3 mt3 mb3">
+          <img src="{% static "dogs/" %}{{ dog.imgsrc }}" alt="{{ dog.name }}, {{ dog.description }}">
+          <div class="fw6 tracked-tight f4">{{ dog.name }}</div>
+          <div>
+            {% for quality in dog.qualities %}
+            <span class="br-pill pa1 dib mv1 bg-lightest-blue">{{ quality }}</span>            
+            {% endfor %}
           </div>
         </div>
-        <div class="animal w-30 mr3 mt3 mb3">
-          <img src="boston-terrier.jpg" alt="Zelda, a boston terrier">
-          <div class="animal__name fw6 tracked-tight f4">Zelda</div>
-          <div class="animal__traits">
-            <span class="animal__trait br-pill pa1 dib mv1 bg-lightest-blue">Senior</span>
-            <span class="animal__trait br-pill pa1 dib mv1 bg-lightest-blue">Female</span>
-            <span class="animal__trait br-pill pa1 dib mv1 bg-lightest-blue">Small</span>
-            <span class="animal__trait br-pill pa1 dib mv1 bg-lightest-blue">Easygoing</span>
-            <span class="animal__trait br-pill pa1 dib mv1 bg-lightest-blue">Good with kids</span>
-            <span class="animal__trait br-pill pa1 dib mv1 bg-lightest-blue">Good with other dogs</span>
-          </div>
-        </div>
-        <div class="animal w-30 mr3 mt3 mb3">
-          <img src="boxer.jpg" alt="Baby, a brown boxer">
-          <div class="animal__name fw6 tracked-tight f4">Baby</div>
-          <div class="">
-            <span class="animal__trait br-pill pa1 dib mv1 bg-lightest-blue">Young</span>
-            <span class="animal__trait br-pill pa1 dib mv1 bg-lightest-blue">Female</span>
-            <span class="animal__trait br-pill pa1 dib mv1 bg-lightest-blue">Large</span>
-            <span class="animal__trait br-pill pa1 dib mv1 bg-lightest-blue">Energetic</span>
-            <span class="animal__trait br-pill pa1 dib mv1 bg-lightest-blue">Good with kids</span>
-            <span class="animal__trait br-pill pa1 dib mv1 bg-lightest-blue">Good with other dogs</span>
-          </div>
-        </div>
-        <div class="animal w-30 mr3 mt3 mb3">
-          <img src="golden-lab.jpg" alt="Tom-Tom, a golden lab">
-          <div class="animal__name fw6 tracked-tight f4">Tom-Tom</div>
-          <div class="">
-            <span class="animal__trait br-pill pa1 dib mv1 bg-lightest-blue">Young</span>
-            <span class="animal__trait br-pill pa1 dib mv1 bg-lightest-blue">Male</span>
-            <span class="animal__trait br-pill pa1 dib mv1 bg-lightest-blue">Large</span>
-            <span class="animal__trait br-pill pa1 dib mv1 bg-lightest-blue">Energetic</span>
-            <span class="animal__trait br-pill pa1 dib mv1 bg-lightest-blue">Good with kids</span>
-            <span class="animal__trait br-pill pa1 dib mv1 bg-lightest-blue">Good with other dogs</span>
-            <span class="animal__trait br-pill pa1 dib mv1 bg-lightest-blue">Good with cats</span>
-          </div>
-        </div>
-        <div class="animal w-30 mr3 mt3 mb3">
-          <img src="little-dog.jpg" alt="Marco, a little fuzzy dog">
-          <div class="animal__name fw6 tracked-tight f4">Marco</div>
-          <div class="">
-            <span class="animal__trait br-pill pa1 dib mv1 bg-lightest-blue">Adult</span>
-            <span class="animal__trait br-pill pa1 dib mv1 bg-lightest-blue">Male</span>
-            <span class="animal__trait br-pill pa1 dib mv1 bg-lightest-blue">Small</span>
-            <span class="animal__trait br-pill pa1 dib mv1 bg-lightest-blue">Energetic</span>
-          </div>
-        </div>
-        <div class="animal w-30 mr3 mt3 mb3">
-          <img src="old-shaggy.jpg" alt="Shackleton, a shaggy white dog">
-          <div class="animal__name fw6 tracked-tight f4">Shackleton</div>
-          <div class="">
-            <span class="animal__trait br-pill pa1 dib mv1 bg-lightest-blue">Adult</span>
-            <span class="animal__trait br-pill pa1 dib mv1 bg-lightest-blue">Male</span>
-            <span class="animal__trait br-pill pa1 dib mv1 bg-lightest-blue">Medium</span>
-            <span class="animal__trait br-pill pa1 dib mv1 bg-lightest-blue">Easygoing</span>
-            <span class="animal__trait br-pill pa1 dib mv1 bg-lightest-blue">Energetic</span>
-            <span class="animal__trait br-pill pa1 dib mv1 bg-lightest-blue">Good with kids</span>
-            <span class="animal__trait br-pill pa1 dib mv1 bg-lightest-blue">Good with other dogs</span>
-            <span class="animal__trait br-pill pa1 dib mv1 bg-lightest-blue">Good with cats</span>
-          </div>
-        </div>
-        <div class="animal w-30 mr3 mt3 mb3">
-          <img src="shih-tzu.jpg" alt="Midge, a shih-tzu">
-          <div class="animal__name fw6 tracked-tight f4">Midge</div>
-          <div class="">
-            <span class="animal__trait br-pill pa1 dib mv1 bg-lightest-blue">Adult</span>
-            <span class="animal__trait br-pill pa1 dib mv1 bg-lightest-blue">Female</span>
-            <span class="animal__trait br-pill pa1 dib mv1 bg-lightest-blue">Small</span>
-            <span class="animal__trait br-pill pa1 dib mv1 bg-lightest-blue">Easygoing</span>
-            <span class="animal__trait br-pill pa1 dib mv1 bg-lightest-blue">Good with kids</span>
-          </div>
-        </div>
-        <div class="animal w-30 mr3 mt3 mb3">
-          <img src="young-bulldog.jpg" alt="Ladybird, a silly boxer">
-          <div class="animal__name fw6 tracked-tight f4">Ladybird</div>
-          <div class="">
-            <span class="animal__trait br-pill pa1 dib mv1 bg-lightest-blue">Young</span>
-            <span class="animal__trait br-pill pa1 dib mv1 bg-lightest-blue">Female</span>
-            <span class="animal__trait br-pill pa1 dib mv1 bg-lightest-blue">Large</span>
-            <span class="animal__trait br-pill pa1 dib mv1 bg-lightest-blue">Easygoing</span>
-            <span class="animal__trait br-pill pa1 dib mv1 bg-lightest-blue">Energetic</span>
-            <span class="animal__trait br-pill pa1 dib mv1 bg-lightest-blue">Good with kids</span>
-            <span class="animal__trait br-pill pa1 dib mv1 bg-lightest-blue">Good with other dogs</span>
-            <span class="animal__trait br-pill pa1 dib mv1 bg-lightest-blue">Good with cats</span>
-          </div>
-        </div>
-        <div class="animal w-30 mr3 mt3 mb3">
-          <img src="young-peppy.jpg" alt="Mina, a young brown and white dog">
-          <div class="animal__name fw6 tracked-tight f4">Mina</div>
-          <div class="">
-            <span class="animal__trait br-pill pa1 dib mv1 bg-lightest-blue">Puppy</span>
-            <span class="animal__trait br-pill pa1 dib mv1 bg-lightest-blue">Female</span>
-            <span class="animal__trait br-pill pa1 dib mv1 bg-lightest-blue">Medium</span>
-            <span class="animal__trait br-pill pa1 dib mv1 bg-lightest-blue">Energetic</span>
-            <span class="animal__trait br-pill pa1 dib mv1 bg-lightest-blue">Good with kids</span>
-            <span class="animal__trait br-pill pa1 dib mv1 bg-lightest-blue">Good with other dogs</span>
-            <span class="animal__trait br-pill pa1 dib mv1 bg-lightest-blue">Good with cats</span>
-          </div>
-        </div>
+        {% endfor %}
       </div>
     </section>
-  </div>
-  <!-- <footer class="footer">
-    <div class="footer__block footer__block--donate">
-      <a href="#">Donate</a>
-    </div>
-    <div class="footer__block footer__block--volunteer">
-      <a href="#">Volunteer</a>
-    </div>
-    <div class="footer__block footer__block--location">
-      <a href="#">Our location</a>
-    </div>
-  </footer> -->
+  </div>  
 </body>
 
 </html>

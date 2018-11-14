@@ -1,12 +1,5 @@
 dogs = [
     {
-        "name": "Beans",
-        "description": "a black-and-white shaggy dog",
-        "imgsrc": "beans.jpg",
-        "qualities":
-        ["Adult", "Male", "Medium", "Easygoing", "Good with cats"]
-    },
-    {
         "name":
         "Zelda",
         "description":
@@ -17,6 +10,13 @@ dogs = [
             "Senior", "Female", "Small", "Easygoing", "Good with kids",
             "Good with other dogs"
         ]
+    },
+    {
+        "name": "Beans",
+        "description": "a black-and-white shaggy dog",
+        "imgsrc": "beans.jpg",
+        "qualities":
+        ["Adult", "Male", "Medium", "Easygoing", "Good with cats"]
     },
     {
         "name":
