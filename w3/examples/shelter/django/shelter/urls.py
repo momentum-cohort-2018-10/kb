@@ -18,4 +18,8 @@ from django.urls import path
 
 from pets import views
 
-urlpatterns = [path('admin/', admin.site.urls), path('', views.index)]
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('', views.index),
+    path('contact/', views.contact),
+]

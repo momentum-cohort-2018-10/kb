@@ -1,26 +1,7 @@
+{% extends "pets/base.html" %}
 {% load staticfiles %}
-<!DOCTYPE html>
-<html>
 
-<head>
-  <meta charset="UTF-8">
-  <title>{{ shelter_name }} - Adopt a Dog</title>
-  <link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css" />
-</head>
-
-<body class="sans-serif">
-  <header class="pv3 bg-navy white bb bw2 b--washed-green">
-    <div class="flex justify-between items-center mw8 center">
-      <h1 class="site-logo">{{ shelter_name }}</h1>
-      <nav class="main-menu">
-        <ul class="main-menu__list list pl0 tr">
-          <li class="main-menu__list-item ph2 dib"><a class="nav-link white" href="#">About</a></li>
-          <li class="main-menu__list-item ph2 dib"><a class="nav-link white" href="#">Contact Us</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-  <div class="container mw8 center">
+{% block content %}
     <h2>Adopt a Dog</h2>
     <p>
       If you are interested in adopting one of our animals, please fill out our
@@ -76,7 +57,4 @@
         {% endfor %}
       </div>
     </section>
-  </div>  
-</body>
-
-</html>
+{% endblock %}

@@ -5,7 +5,14 @@ from pets.dogs import dogs
 
 
 def index(request):
-    return render(request, 'pets/index.html', {
+    response = render(request, 'pets/index.html', {
         "shelter_name": "Lazy River Shelter",
         "dogs": dogs,
+    })
+    return response
+
+
+def contact(request):
+    return render(request, "pets/contact.html", {
+        "shelter_name": "Lazy River Shelter",
     })
