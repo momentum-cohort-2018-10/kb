@@ -40,9 +40,12 @@ _Question of the day:_ How does a web page get to your computer?
 
 ### Assignment
 
-- Contacts directory
+- Hello Web App
 
 ### References
+
+- [An overview of HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview)
+-
 
 ## Day 3
 

@@ -4,21 +4,22 @@
 <head>
   <meta charset="UTF-8">
   <title>Happy Valley Shelter - Adopt a Dog</title>  
+  <link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css"/>
 </head>
 
-<body>
-  <header>
-    <div>
+<body class="sans-serif">
+  <header class="bg-navy white mt0 pv2">
+    <div class="mw8 center flex justify-between items-center">
       <h1>Happy Valley Shelter</h1>
       <nav>
-        <ul>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact Us</a></li>
+        <ul class="list pl0 flex">
+          <li><a class="white pl2" href="#">About</a></li>
+          <li><a class="white pl2" href="#">Contact Us</a></li>
         </ul>
       </nav>
     </div>
   </header>
-  <div>
+  <div class="mw8 center">
     <h2>Adopt a Dog</h2>
     <p>
       If you are interested in adopting one of our animals, please fill out our
@@ -27,12 +28,6 @@
     <section>
       <h3>Show me dogs that are...</h3>
       <form>
-        <div>
-          <h4>Gender</h4>
-          <label><input type="radio" name="gender_choice" value="male">Male</label>
-          <label><input type="radio" name="gender_choice" value="female">Female</label>
-          <label><input type="radio" name="gender_choice" value="all" checked="checked">All</label>
-        </div>
         <div>
           <h4>Age</h4>
           <label><input type="radio" name="age_choice" value="puppy">Puppy</label>

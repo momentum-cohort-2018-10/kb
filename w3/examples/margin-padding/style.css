@@ -1,0 +1,14 @@
+.document {
+  background-color: lightblue;
+}
+
+.box1 {
+  background-color: lightgoldenrodyellow;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.box2 {
+  background-color: lightpink;
+  padding: 1rem;
+}
