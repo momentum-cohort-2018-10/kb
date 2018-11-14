@@ -40,12 +40,14 @@ _Question of the day:_ How does a web page get to your computer?
 
 ### Assignment
 
-- Hello Web App
+- Hello Web App - we'll be doing demos tomorrow!
 
 ### References
 
 - [An overview of HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview)
--
+- [Devdocs.io] - like Dash, free, can choose what documentation to search over
+- [Full Stack Python](https://www.fullstackpython.com/)
+  - [FSP - Web frameworks](https://www.fullstackpython.com/web-frameworks.html)
 
 ## Day 3
 
