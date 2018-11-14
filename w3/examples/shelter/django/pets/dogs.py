@@ -60,4 +60,35 @@ dogs = [
             "Good with kids", "Good with other dogs", "Good with cats"
         ]
     },
+    {
+        "name":
+        "Ladybird",
+        "description":
+        "a silly Boxer",
+        "imgsrc":
+        "young-bulldog.jpg",
+        "qualities": [
+            "Young", "Female", "Large", "Energetic", "Good with kids",
+            "Good with cats"
+        ]
+    },
+    {
+        "name": "Midge",
+        "description": "a Shih-Tzu",
+        "imgsrc": "shih-tzu.jpg",
+        "qualities":
+        ["Adult", "Female", "Small", "Easygoing", "Good with kids"]
+    },
+    {
+        "name":
+        "Mina",
+        "description":
+        "a brown and white dog",
+        "imgsrc":
+        "young-peppy.jpg",
+        "qualities": [
+            "Puppy", "Female", "Medium", "Energetic", "Good with kids",
+            "Good with other dogs"
+        ]
+    },
 ]
