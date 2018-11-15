@@ -5,7 +5,6 @@ from django.db import models
 class Dog(models.Model):
     name = models.CharField(max_length=50, null=False, blank=False)
     description = models.CharField(max_length=255, null=False, blank=False)
-    img_filename = models.CharField(max_length=50, null=True, blank=True)
     picture = models.ImageField(upload_to='dogs/', null=True)
     age = models.CharField(
         max_length=10,
