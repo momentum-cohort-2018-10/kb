@@ -29,5 +29,17 @@ class Dog(models.Model):
     good_with_dogs = models.BooleanField(default=False)
     good_with_cats = models.BooleanField(default=False)
 
+    def get_qualities(self):
+        qualities = []
+        qualities.append(self.get_age_display())
+        qualities.append(self.get_size_display())
+        if self.good_with_kids:
+            qualities.append("Good with kids")
+        if self.good_with_dogs:
+            qualities.append("Good with other dogs")
+        if self.good_with_cats:
+            qualities.append("Good with cats")
+        return qualities
+
     def __str__(self):
         return self.name

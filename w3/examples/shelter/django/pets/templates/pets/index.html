@@ -46,10 +46,10 @@
       <div class="flex flex-wrap">
         {% for dog in dogs %}
         <div class="w-30 mr3 mt3 mb3">
-          <img src="{% static "dogs/" %}{{ dog.imgsrc }}" alt="{{ dog.name }}, {{ dog.description }}">
+          <img src="{% static "dogs/" %}{{ dog.img_filename }}" alt="{{ dog.name }}, {{ dog.description }}">
           <div class="fw6 tracked-tight f4">{{ dog.name }}</div>
           <div>
-            {% for quality in dog.qualities %}
+            {% for quality in dog.get_qualities %}
             <span class="br-pill pa1 dib mv1 bg-lightest-blue">{{ quality }}</span>            
             {% endfor %}
           </div>
