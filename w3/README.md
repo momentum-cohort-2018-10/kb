@@ -66,6 +66,7 @@ _Question of the day:_ What does it mean to have "a profile" on a website?
 - [Best practices working with Django models in Python](https://steelkiwi.com/blog/best-practices-working-django-models-python/)
 - [Managing files](https://docs.djangoproject.com/en/2.1/topics/files/) - from the Django docs
 - [SQLite tutorial](http://www.sqlitetutorial.net/)
+- [How to handle uploaded images in Django](https://simpleisbetterthancomplex.com/tutorial/2016/08/01/how-to-upload-files-with-django.html)
 
 ## Day 4
 
