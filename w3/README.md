@@ -54,6 +54,7 @@ _Question of the day:_ How does a web page get to your computer?
 _Question of the day:_ What does it mean to have "a profile" on a website?
 
 - Models and databases
+- The admin site
 - Getting information from the URL
 
 ### Assignment
@@ -61,6 +62,10 @@ _Question of the day:_ What does it mean to have "a profile" on a website?
 - Hello Web App
 
 ### References
+
+- [Best practices working with Django models in Python](https://steelkiwi.com/blog/best-practices-working-django-models-python/)
+- [Managing files](https://docs.djangoproject.com/en/2.1/topics/files/) - from the Django docs
+- [SQLite tutorial](http://www.sqlitetutorial.net/)
 
 ## Day 4
 
