@@ -24,6 +24,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.index),
     path('contact/', views.contact),
+    path('dogs/<int:dog_id>/', views.dog, name="dog_detail")
 ]
 
 if settings.DEBUG:

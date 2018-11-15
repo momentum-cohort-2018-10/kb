@@ -47,9 +47,15 @@
         {% for dog in dogs %}
         <div class="w-30 mr3 mt3 mb3">
           {% if dog.picture %}
+          <a href="{% url 'dog_detail' dog_id=dog.id %}">
           <img src="{{ dog.picture.url }}" alt="{{ dog.name }}, {{ dog.description }}">
+          </a>
           {% endif %}
-          <div class="fw6 tracked-tight f4">{{ dog.name }}</div>
+          <div class="fw6 tracked-tight f4">
+            <a href="{% url 'dog_detail' dog_id=dog.id %}">
+            {{ dog.name }}
+            </a>
+          </div>
           <div>
             {% for quality in dog.get_qualities %}
             <span class="br-pill pa1 dib mv1 bg-lightest-blue">{{ quality }}</span>            
