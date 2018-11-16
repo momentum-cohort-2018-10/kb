@@ -1,5 +1,19 @@
 from django.db import models
 
+DOG_AGE_CHOICES = (
+    ('puppy', 'Puppy'),
+    ('young', 'Young'),
+    ('adult', 'Adult'),
+    ('senior', 'Senior'),
+)
+
+DOG_SIZE_CHOICES = (
+    (1, 'Tiny'),
+    (2, 'Small'),
+    (3, 'Medium'),
+    (4, 'Large'),
+)
+
 
 # Create your models here.
 class Dog(models.Model):
@@ -7,24 +21,9 @@ class Dog(models.Model):
     description = models.CharField(max_length=255, null=False, blank=False)
     picture = models.ImageField(upload_to='dogs/', null=True)
     age = models.CharField(
-        max_length=10,
-        null=False,
-        blank=False,
-        choices=(
-            ('puppy', 'Puppy'),
-            ('young', 'Young'),
-            ('adult', 'Adult'),
-            ('senior', 'Senior'),
-        ))
+        max_length=10, null=False, blank=False, choices=DOG_AGE_CHOICES)
     size = models.IntegerField(
-        null=False,
-        blank=False,
-        choices=(
-            (1, 'Tiny'),
-            (2, 'Small'),
-            (3, 'Medium'),
-            (4, 'Large'),
-        ))
+        null=False, blank=False, choices=DOG_SIZE_CHOICES)
     good_with_kids = models.BooleanField(default=False)
     good_with_dogs = models.BooleanField(default=False)
     good_with_cats = models.BooleanField(default=False)

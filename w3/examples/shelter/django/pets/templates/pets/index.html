@@ -9,60 +9,40 @@
     </p>
     <section class="search pa3 bg-light-gray">
       <h3 class="search__title mb0">Show me dogs that are...</h3>
-      <form class="search__form flex">
-        <div class="search__choice mr5">
-          <h4>Gender</h4>
-          <label class="db"><input class="mr1" type="radio" name="gender_choice" value="male">Male</label>
-          <label class="db"><input class="mr1" type="radio" name="gender_choice" value="female">Female</label>
-          <label class="db"><input class="mr1" type="radio" name="gender_choice" value="all" checked="checked">All</label>
-        </div>
-        <div class="search__choice mr5">
-          <h4>Age</h4>
-          <label class="db"><input class="mr1" type="radio" name="age_choice" value="puppy">Puppy</label>
-          <label class="db"><input class="mr1" type="radio" name="age_choice" value="young">Young</label>
-          <label class="db"><input class="mr1" type="radio" name="age_choice" value="adult">Adult</label>
-          <label class="db"><input class="mr1" type="radio" name="age_choice" value="senior">Senior</label>
-          <label class="db"><input class="mr1" type="radio" name="age_choice" value="all" checked="checked">All</label>
-        </div>
-        <div class="search__choice mr5">
-          <h4>Size</h4>
-          <label class="db"><input class="mr1" type="checkbox" name="size_choice" value="tiny">Tiny</label>
-          <label class="db"><input class="mr1" type="checkbox" name="size_choice" value="small">Small</label>
-          <label class="db"><input class="mr1" type="checkbox" name="size_choice" value="medium">Medium</label>
-          <label class="db"><input class="mr1" type="checkbox" name="size_choice" value="large">Large</label>
-        </div>
-        <div class="search__choice mr5">
-          <h4>Personality Traits</h4>
-          <label class="db"><input class="mr1" type="checkbox" name="personality_choice" value="easygoing">Easygoing</label>
-          <label class="db"><input class="mr1" type="checkbox" name="personality_choice" value="energetic">Energetic</label>
-          <label class="db"><input class="mr1" type="checkbox" name="personality_choice" value="kids">Good with kids</label>
-          <label class="db"><input class="mr1" type="checkbox" name="personality_choice" value="dogs">Good with other
-            dogs</label>
-          <label class="db"><input class="mr1" type="checkbox" name="personality_choice" value="cats">Good with cats</label>
-        </div>
+      <form method="GET" action="{% url 'dog_list' %}">
+      {{ search_form.as_p }}
+      <button type="submit">Search</button>
+      <a href="{% url "dog_list" %}">Reset search</a>
       </form>
     </section>
     <section>
       <div class="flex flex-wrap">
-        {% for dog in dogs %}
-        <div class="w-30 mr3 mt3 mb3">
-          {% if dog.picture %}
-          <a href="{% url 'dog_detail' dog_id=dog.id %}">
-          <img src="{{ dog.picture.url }}" alt="{{ dog.name }}, {{ dog.description }}">
-          </a>
-          {% endif %}
-          <div class="fw6 tracked-tight f4">
+        {% if dogs %}
+          {% for dog in dogs %}
+          <div class="w-30 mr3 mt3 mb3">
+            {% if dog.picture %}
             <a href="{% url 'dog_detail' dog_id=dog.id %}">
-            {{ dog.name }}
+            <img src="{{ dog.picture.url }}" alt="{{ dog.name }}, {{ dog.description }}">
             </a>
+            {% endif %}
+            <div class="fw6 tracked-tight f4">
+              <a href="{% url 'dog_detail' dog_id=dog.id %}">
+              {{ dog.name }}
+              </a>
+            </div>
+            <div>
+              {% for quality in dog.get_qualities %}
+              <span class="br-pill pa1 dib mv1 bg-lightest-blue">{{ quality }}</span>            
+              {% endfor %}
+            </div>
           </div>
-          <div>
-            {% for quality in dog.get_qualities %}
-            <span class="br-pill pa1 dib mv1 bg-lightest-blue">{{ quality }}</span>            
-            {% endfor %}
-          </div>
-        </div>
-        {% endfor %}
+          {% endfor %}
+        {% else %}
+          <p>
+            No dogs matched your search. 
+            Would you like to <a href="{% url "dog_list" %}">see all dogs</a>?
+          </p>
+        {% endif %}
       </div>
     </section>
 {% endblock %}

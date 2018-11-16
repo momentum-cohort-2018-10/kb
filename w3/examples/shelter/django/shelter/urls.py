@@ -22,7 +22,7 @@ from pets import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.index),
+    path('', views.index, name="dog_list"),
     path('contact/', views.contact),
     path('dogs/<int:dog_id>/', views.dog, name="dog_detail")
 ]
