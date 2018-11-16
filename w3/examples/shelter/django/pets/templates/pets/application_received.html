@@ -1,0 +1,10 @@
+{% extends "pets/base.html" %}
+
+{% block content %}
+  <h1>Application received</h1>
+
+  <p>
+  Your application to adopt {{ application.dog.name }} has been received! We will contact
+  you at {{ application.email }} within 2-3 days.
+  </p>
+{% endblock %}

@@ -1,4 +1,5 @@
 from django.db import models
+from localflavor.us.models import USStateField, USZipCodeField
 
 DOG_AGE_CHOICES = (
     ('puppy', 'Puppy'),
@@ -42,3 +43,19 @@ class Dog(models.Model):
 
     def __str__(self):
         return self.name
+
+
+class AdoptionApplication(models.Model):
+    dog = models.ForeignKey(to='Dog', on_delete=models.CASCADE)
+    name = models.CharField(max_length=255)
+    email = models.EmailField()
+    current_pet_owner = models.BooleanField()
+    phone_number = models.CharField(max_length=30)
+    address1 = models.CharField(max_length=255)
+    address2 = models.CharField(max_length=255, blank=True)
+    city = models.CharField(max_length=255)
+    state = USStateField()
+    zip = USZipCodeField()
+
+    def __str__(self):
+        return f"{self.dog} - {self.name}"

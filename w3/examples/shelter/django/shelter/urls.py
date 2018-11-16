@@ -24,7 +24,11 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.index, name="dog_list"),
     path('contact/', views.contact),
-    path('dogs/<int:dog_id>/', views.dog, name="dog_detail")
+    path('dogs/<int:dog_id>/', views.dog, name="dog_detail"),
+    path(
+        'dogs/<int:dog_id>/adopt/',
+        views.create_application,
+        name="dog_application_detail"),
 ]
 
 if settings.DEBUG:

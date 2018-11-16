@@ -2,4 +2,12 @@
 
 {% block content %}
   <h1>{{ dog.name }}</h1>
+
+  <h2>Apply to adopt {{ dog.name }}</h2>
+
+  <form method="POST" action="{% url 'dog_application_detail' dog_id=dog.id %}">
+  {% csrf_token %}
+  {{ adoption_form.as_p }}
+  <button type="submit">Submit application</button>
+  </form>
 {% endblock %}
