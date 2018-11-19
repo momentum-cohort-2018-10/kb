@@ -34,3 +34,11 @@ By the end of this week, students should be comfortable with:
 - CSS Frameworks
 - Creating a new Django app
 - Serving simple dynamic pages through Django
+
+## [Week 4](w4/)
+
+By the end of this week, students should be comfortable with:
+
+- Django models
+- Registration and login with Django
+- Deploying a Django app to Heroku
