@@ -24,8 +24,8 @@ Assignment for the week: [Freeshelf](https://classroom.github.com/a/lentf7r1)
 
 - [How to Create Django User Sign Up View](https://simpleisbetterthancomplex.com/tutorial/2017/02/18/how-to-create-user-sign-up-view.html)
 - [Awesome Django](http://awesome-django.com/)
+- [Django Debug Toolbar](https://django-debug-toolbar.readthedocs.io/en/latest/)
 
 ## Day 3
 
-- PostgreSQL
-- Deployment on Heroku
+- Review
