@@ -2,6 +2,7 @@
 
 - [Setting up your computer](mac-setup.md)
 - [Student Guidelines](student-guidelines/)
+- [Master list of links from class](links.md)
 
 ## [Week 1](w1/)
 
