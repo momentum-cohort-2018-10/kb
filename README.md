@@ -42,4 +42,13 @@ By the end of this week, students should be comfortable with:
 
 - Django models
 - Registration and login with Django
+
+## [Week 5](w5/)
+
+By the end of this week, students should be comfortable with:
+
+- Pair programming
+- Using Git on a team
+- Using the Django messages framework
+- Querying models using advanced Django queries
 - Deploying a Django app to Heroku

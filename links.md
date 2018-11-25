@@ -14,6 +14,7 @@
 
 - [Learn Git Branching](https://learngitbranching.js.org/)
 - [GitHub Learning Lab](https://lab.github.com/)
+- [What is a good Git workflow?](https://help.github.com/articles/what-is-a-good-git-workflow/)
 
 ## Python
 
