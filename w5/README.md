@@ -25,6 +25,7 @@ Pairs for assignment:
 - [How to write a Git commit message](https://chris.beams.io/posts/git-commit/)
 - [Pair programming](pair-programming.md)
 - [Creating a commit with multiple authors](https://help.github.com/articles/creating-a-commit-with-multiple-authors/)
+- [Gitignore.io](https://gitignore.io/)
 
 ## Day 2
 
