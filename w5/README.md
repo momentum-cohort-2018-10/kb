@@ -1,6 +1,6 @@
 # Week 4
 
-Assignment for the week: **Apile**
+Assignment for the week: [**Apile**](https://classroom.github.com/classrooms/44148947-momentum-cohort-3-october-2018/group-assignments/w5-apile)
 
 Pairs for assignment:
 
