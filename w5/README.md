@@ -35,9 +35,11 @@ Pairs for assignment:
 
 - Deploying Django applications to Heroku
 
-## Day 4
+### Resources
 
-## ???
+- [Python support on Heroku](https://devcenter.heroku.com/categories/python-support)
+
+## Day 4
 
 - Class-based views
 
