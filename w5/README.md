@@ -24,6 +24,7 @@ Pairs for assignment:
 - [Git Tower git e-book, chapter 2 -- branching and merging](https://www.git-tower.com/learn/git/ebook/en/command-line/branching-merging/branching-can-change-your-life#start)
 - [How to write a Git commit message](https://chris.beams.io/posts/git-commit/)
 - [Pair programming](pair-programming.md)
+- [Creating a commit with multiple authors](https://help.github.com/articles/creating-a-commit-with-multiple-authors/)
 
 ## Day 2
 
