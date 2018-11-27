@@ -33,9 +33,16 @@ Pairs for assignment:
 - Advanced querying
   - Sort by count of a relation
 
+### Resources
+
+- [Personalizing Git with Aliases](https://alistapart.com/blog/post/personalizing-git-with-aliases)
+- [Django messages framework](https://docs.djangoproject.com/en/2.1/ref/contrib/messages/)
+- [Field lookups in Django](https://docs.djangoproject.com/en/2.1/ref/models/querysets/#id4)
+
 ## Day 3
 
 - Deploying Django applications to Heroku
+- PostgreSQL
 
 ### Resources
 
