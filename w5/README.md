@@ -47,6 +47,7 @@ Pairs for assignment:
 ### Resources
 
 - [Python support on Heroku](https://devcenter.heroku.com/categories/python-support)
+- [Django app configuration](https://devcenter.heroku.com/articles/django-app-configuration)
 
 ## Day 4
 
