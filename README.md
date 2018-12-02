@@ -52,3 +52,12 @@ By the end of this week, students should be comfortable with:
 - Using the Django messages framework
 - Querying models using advanced Django queries
 - Deploying a Django app to Heroku
+
+## [Week 6](w6/)
+
+By the end of this week, students should be comfortable with:
+
+- Basic JavaScript
+- Manipulating the DOM
+- Making and responding to Ajax requests
+- The concept of progressive enhancement
