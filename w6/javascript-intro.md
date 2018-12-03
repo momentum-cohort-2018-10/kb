@@ -1,6 +1,8 @@
 # JavaScript for Python developers
 
-## Comparison
+---
+
+# Comparison
 
 ```python
 # Python
@@ -11,7 +13,52 @@ for word in words:
 
 ```js
 // JavaScript
-words = ["I", "love", "programming"]
+const words = ["I", "love", "programming"]
+for (let word of words) {
+  console.log(word)
+}
+```
+
+---
+
+# Declaring variables
+
+The first time you use a variable, you _declare_ it using `let` or `const`.
+
+```js
+const names = ["Blake", "Marion", "Keelan"]
+let currentUser = "Blake"
+```
+
+---
+
+# What if I forget to use `let` or `const`?
+
+- The variable ends up being in the global scope
+- Everything breaks
+- You get confused
+
+---
+
+# Naming
+
+In JavaScript, use `camelCase` instead of `snake_case`.
+
+---
+
+# Curly braces
+
+Pretty much everywhere Python uses indentation, JavaScript uses curly braces.
+
+```js
+if (test) {
+  runCode()
+}
+
+function doIt() {
+  console.log("do it!")
+}
+
 for (let word of words) {
   console.log(word)
 }
@@ -48,6 +95,13 @@ let greeting = `Hello, ${person}!` // JavaScript
 
 - _array_ - like a list
 - _object_ - like a dict, but kind of like a Python object
+
+---
+
+# Arrays
+
+- `array.length` instead of `len(array)`
+- no list comprehensions
 
 ---
 
@@ -90,31 +144,6 @@ Not false:
 
 ---
 
-# Naming
-
-In JavaScript, use `camelCase` instead of `snake_case`.
-
----
-
-# Declaring variables
-
-The first time you use a variable, you _declare_ it using `let` or `const`.
-
-```js
-const names = ["Blake", "Marion", "Keelan"]
-let currentUser = "Blake"
-```
-
----
-
-# What if I forget to use `let` or `const`?
-
-- The variable ends up being in the global scope
-- Everything breaks
-- You get confused
-
----
-
 # Functions
 
 ```js
@@ -130,6 +159,7 @@ function add(x, y) {
 - Use `function` instead of `def`
 - Use braces instead of indenting
 - Will _never_ give you an error for calling with too few or too many arguments
+- No `*args` or `**kwargs`
 
 ```js
 function sayHello(name) {
@@ -185,7 +215,7 @@ for (let letter in letters) {
 `for` can take three statements: initializing, testing, updating
 
 ```js
-for (var index = 0; index < 3; index++) {
+for (let index = 0; index < 3; index++) {
   console.log(index)
 }
 // 0
@@ -198,9 +228,9 @@ for (var index = 0; index < 3; index++) {
 # Using indexes and contents
 
 ```js
-var nums = [12, 3, 2, 11, 9, -6];
+let nums = [12, 3, 2, 11, 9, -6];
 
-for (var i = 0; i < nums.length; i++) {
+for (let i = 0; i < nums.length; i++) {
     console.log(i, nums[i]);
   }
 }
@@ -218,3 +248,14 @@ for (var i = 0; i < nums.length; i++) {
 - These work like in Python
 - `break` ends the loop
 - `continue` starts back at the top of the loop
+
+---
+
+# Other differences you'll see
+
+- `console.log()` instead of `print()`
+- Classes and objects
+  - `this` instead of `self`
+  - `new Book()` instead of `Book()`
+  - `constructor()` instead of `__init__()`
+- || and && instead of `or` and `and`
