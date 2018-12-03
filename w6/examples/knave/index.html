@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Knave Character Generator</title>
+  <link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css" />
+  <script src="knave.js" defer></script>
+</head>
+
+<body class="serif pa4">
+  <div id="sheet" class="flex flex-wrap">
+    <div class="flex w-100">
+      <div class="outline w-80 pb2 pt1">
+        <div class="f6 silver tc pb1">Name</div>
+        <div class="lh-copy tc" id="name">Thorgar</div>
+      </div>
+      <div class="outline w-10 pb2 pt1">
+        <div class="f6 silver tc pb1">Level</div>
+        <div class="lh-copy tc">1</div>
+      </div>
+      <div class="outline w-10 pb2 pt1">
+        <div class="f6 silver tc pb1">XP</div>
+        <div class="lh-copy tc">0</div>
+      </div>
+    </div>
+    <div id="stats" class="w-33 ph2 pv3">
+      <h2 class="f3 lh-title ma0">Stats</h2>
+      <ul class="list pl0 lh-copy">
+        <li id="str">
+          <span class="b dib mr2">STR</span>
+          <span class="score">11/+1</span>
+        </li>
+        <li id="dex">
+          <span class="b dib mr2">DEX</span>
+          <span class="score">12/+1</span>
+        </li>
+        <li id="con">
+          <span class="b dib mr2">CON</span>
+          <span class="score">11/+1</span>
+        </li>
+        <li id="int">
+          <span class="b dib mr2">INT</span>
+          <span class="score">11/+1</span>
+        </li>
+        <li id="wis">
+          <span class="b dib mr2">WIS</span>
+          <span class="score">13/+3</span>
+        </li>
+        <li id="cha">
+          <span class="b dib mr2">CHA</span>
+          <span class="score">11/+1</span>
+        </li>
+        <li id="luck">
+          <span class="b dib mr2">Luck</span>
+          <span class="score">12/+2</span>
+        </li>
+        <li id="armor">
+          <span class="b dib mr2">Armor</span>
+          <span class="score">+1</span>
+        </li>
+        <li id="hp">
+          <span class="b dib mr2">HP</span>
+          <span class="score">8</span>
+        </li>
+      </ul>
+    </div>
+    <div id="traits" class="w-33 ph2 pv3">
+      <h2 class="f3 lh-title ma0">Traits</h2>
+      <ul class="list pl0 lh-copy">
+        <li id="physique">
+          <span class="b dib mr2">Physique</span>
+          <span class="trait">Sinewy</span>
+        </li>
+        <li id="face">
+          <span class="b dib mr2">Face</span>
+          <span class="trait">Ratlike</span>
+        </li>
+        <li id="skin">
+          <span class="b dib mr2">Skin</span>
+          <span class="trait">Pockmarked</span>
+        </li>
+        <li id="hair">
+          <span class="b dib mr2">Hair</span>
+          <span class="trait">Ponytail</span>
+        </li>
+        <li id="clothing">
+          <span class="b dib mr2">Clothing</span>
+          <span class="trait">Flamboyant</span>
+        </li>
+        <li id="virtue">
+          <span class="b dib mr2">Virtue</span>
+          <span class="trait">Courteous</span>
+        </li>
+        <li id="vice">
+          <span class="b dib mr2">Vice</span>
+          <span class="trait">Greedy</span>
+        </li>
+        <li id="speech">
+          <span class="b dib mr2">Speech</span>
+          <span class="trait">Gravely</span>
+        </li>
+        <li id="misfortunes">
+          <span class="b dib mr2">Misfortune</span>
+          <span class="trait">Disowned</span>
+        </li>
+      </ul>
+    </div>
+    <div id="notes" class="w-33"></div>
+    <div class="w-100 outline">
+      <h2 class="lh-title ma0 pa2 bb">Item slots</h2>
+      <div id="item-slots" class="flex flex-wrap bg-moon-gray">
+        <div class="bg-white w-25-l w-33-m w-50 h2 outline br bb pa2">Gambeson</div>
+        <div class="bg-white w-25-l w-33-m w-50 h2 outline br bb"></div>        
+      </div>
+    </div>
+  </div>
+  <div class="mv3">
+    <button id="reroll" class="bg-blue white f3 pa3 br4">Reroll</button>
+  </div>
+</body>
+
+</html>
