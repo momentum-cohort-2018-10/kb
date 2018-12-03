@@ -12,6 +12,8 @@
 
 Assignment: [JavaScript practice problems](https://classroom.github.com/a/MjRM-wmC)
 
+[Slides from class](javascript-intro.md)
+
 ### Resources
 
 - [Mozilla Developer Network - JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
