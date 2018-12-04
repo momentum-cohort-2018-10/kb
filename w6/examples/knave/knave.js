@@ -416,6 +416,7 @@ function makeItemSlot (item) {
 }
 
 function makeCharacter () {
+  console.log('makeCharacter')
   const name = randomChoice(names)
   document.getElementById('name').innerText = name
 

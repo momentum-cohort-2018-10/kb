@@ -24,8 +24,9 @@ Assignment: [JavaScript practice problems](https://classroom.github.com/a/MjRM-w
 ## Day 2
 
 - JavaScript and the DOM
-  - Responding to events
+  - Traversing the DOM
   - Updating the DOM
+  - Responding to events
   - Using data attributes
 
 Assignment: [Calculator](https://classroom.github.com/a/fvXsLQ_a)
