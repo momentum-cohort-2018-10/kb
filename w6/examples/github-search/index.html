@@ -12,6 +12,15 @@
 <body>
   <div>
     <input type="text" id="search-field" placeholder="Search for repositories...">
+    <label for="search-language">
+      Language:
+      <select id="search-language">
+        <option value="">Any</option>
+        <option value="perl">Perl</option>
+        <option value="python">Python</option>
+        <option value="javascript">JavaScript</option>
+      </select>
+    </label>
     <button id="search-button">Search</button>
   </div>
   <div id="search-results"></div>
