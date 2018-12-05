@@ -43,13 +43,22 @@ Assignment: [Calculator](https://classroom.github.com/a/fvXsLQ_a)
 
 ## Day 3
 
+- onclick vs addEventListener
 - Ajax
 - JSON
-- Responding to Ajax requests from Django
+- jQuery
 
-Assignment: Improving Freeshelf
+Assignment: [iTunes Search](https://classroom.github.com/a/ZQqeSD8f)
+
+### Resources
+
+* [jQuery](https://jquery.com/)
+* [The original Ajax article](http://adaptivepath.org/ideas/ajax-new-approach-web-applications/)
+* [Ajax Basics Explained By Working At A Fast Food Restaurant](https://blog.codeanalogies.com/2018/01/15/ajax-basics-explained-by-working-at-a-fast-food-restaurant/)
+* [HTTP Status Guide](https://httpstatuses.com/)
+* [HTTP Cats](https://http.cat/)
 
 ## Day 4
 
-- jQuery
+- Event delegation
 - The larger JavaScript ecosystem
