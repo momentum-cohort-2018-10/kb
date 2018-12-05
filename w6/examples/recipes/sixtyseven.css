@@ -1,0 +1,160 @@
+:root {
+  --blue: hsl(211, 65%, 50%);
+  --green: hsl(96, 70%, 50%);
+  --black: hsl(220, 100%, 1%);
+  --yellow: hsl(59, 100%, 60%);
+  --red: hsl(1, 100%, 59%);
+  --purple: hsl(300, 100%, 25%);
+
+  --bg-color: white;
+  --text-color: var(--black);
+  --border-color: var(--black);
+  --link-color: var(--blue);
+  --visited-link-color: var(--purple);
+
+  --base-font-size: 16px;
+  --line-height: 1.5;
+  --leading: calc(var(--base-font-size) * var(--line-height));
+}
+
+* {
+  box-sizing: border-box;
+  line-height: var(--line-height);
+  margin-top: 0;
+}
+
+html {
+  font-family:
+    /* Safari for OS X and iOS (San Francisco) */
+    -apple-system,
+    /* Chrome < 56 for OS X (San Francisco) */
+    BlinkMacSystemFont,
+    /* Windows */
+    "Segoe UI",
+    /* Android */
+    "Roboto",
+    /* Basic web fallback */
+    "Helvetica Neue", Arial, sans-serif;
+  font-size: var(--base-font-size);
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  margin: 1rem auto;
+  max-width: 35rem;
+}
+
+/* Text styles */
+
+h1, h2, h3, h4, h5, h6, p, ul, ol, dl {
+  margin-bottom: var(--leading);
+}
+
+h1 > small {
+  display: block;
+  opacity: 0.6;
+}
+
+a {
+  text-underline-position: under;
+  color: var(--link-color);
+}
+
+a:visited {
+  color: var(--visited-link-color);
+}
+
+
+/* Images, figures, and media */
+
+figure {
+  margin: 2rem;
+}
+
+figure > figcaption {
+  font-size: 0.8rem;
+  text-align: center;
+  opacity: 0.8;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Forms */
+
+fieldset {
+  margin-bottom: var(--leading);
+  border-radius: 3px;
+}
+
+fieldset > legend {
+  margin-bottom: 0;
+}
+
+label {
+  display: flex;
+  align-items: baseline;
+  margin-top: 0.5rem;
+}
+
+input {
+  width: 100%;
+  font-size: 1rem;
+  padding: 0.25rem 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+label > input {
+  width: auto;
+  margin-left: 1rem;
+  flex-grow: 1;
+  margin-bottom: 1rem;
+}
+
+/* Buttons */
+
+button, input[type=submit], input[type=cancel] {
+  background-color: hsl(221, 5%, 90%);
+  border-color: hsl(221, 5%, 50%);
+  border-width: 1px;
+  border-radius: 3px;
+  cursor: pointer;
+  justify-content: center;
+  padding: 0.5rem 0.75rem;
+  text-align: center;
+  white-space: nowrap;
+  font-size: 1rem;
+}
+
+button:hover {
+  background-color: hsl(221, 5%, 80%);
+  border-color: hsl(221, 5%, 20%);
+}
+
+button[type=submit], input[type=submit] {
+  background-color: hsl(211, 65%, 90%);
+  border-color: hsl(211, 30%, 50%)
+}
+
+button[type=submit]:hover, input[type=submit]:hover {
+  background-color: hsl(211, 65%, 80%);
+  border-color: hsl(211, 30%, 20%)
+}
+
+button[type=reset], input[type=reset] {
+  background-color: hsl(1, 65%, 90%);
+  border-color: hsl(1, 30%, 50%)
+}
+
+button[type=reset]:hover, input[type=reset]:hover {
+  background-color: hsl(1, 65%, 80%);
+  border-color: hsl(1, 30%, 20%)
+}
+
+
+input[type=submit] {
+  width: auto;
+  margin-bottom: 0;
+}
