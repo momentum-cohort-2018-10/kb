@@ -10,7 +10,14 @@ api.github.com - domain
 q=lasagna - query string
 
 */
-$('#search-button').on('click', function (event) {
+$('#search-button').on('click', runSearch)
+$('#search-field').on('keyup', function (event) {
+  if (event.key === 'Enter') {
+    runSearch()
+  }
+})
+
+function runSearch () {
   let query = $('#search-field').val()
   let language = $('#search-language').val()
 
@@ -30,7 +37,7 @@ $('#search-button').on('click', function (event) {
       )
       .append(results.items.map(repoHtml))
   })
-})
+}
 
 function repoHtml (repo) {
   return `    
