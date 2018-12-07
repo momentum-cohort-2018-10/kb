@@ -76,6 +76,8 @@ Assignment: [iTunes Search](https://classroom.github.com/a/ZQqeSD8f)
     - [Finding Engineering Teams that Share Your Values](https://www.hanselminutes.com/654/finding-engineering-teams-that-share-your-key-values-with-lynne-tye)
     - [Learning How to Be a Wizard Programmer](https://www.hanselminutes.com/643/learning-how-to-be-a-wizard-programmer-with-julia-evans)
   - [JS Party](https://changelog.com/jsparty)
+  - [Code Newbie](https://www.codenewbie.org/podcast)
+  - [Command Line Heroes](https://www.redhat.com/en/command-line-heroes)
 - Websites/blogs
   - [Real Python](https://realpython.com/)
   - [Simple is Better Than Complex](https://simpleisbetterthancomplex.com/)
