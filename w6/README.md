@@ -81,6 +81,7 @@ Assignment: [iTunes Search](https://classroom.github.com/a/ZQqeSD8f)
   - [Simple is Better Than Complex](https://simpleisbetterthancomplex.com/)
   - [Full Stack Python](https://www.fullstackpython.com/)
   - [Dev.to](https://dev.to/) - create your own blog here
+  - [Lobsters](https://lobste.rs/) - link aggregator
 - Newsletters
   - [Import Python](https://importpython.com/newsletter/)
   - [Python Weekly](https://www.pythonweekly.com/)
