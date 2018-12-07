@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Notetaker</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tachyons/4.11.1/tachyons.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="notetaker.js" defer></script>
+</head>
+<body class="sans-serif mw9 pa4">
+  <h1 class="near-black bg-red pa2 mb2">Notes</h1>
+  <div id="notes" class="pa4">
+    <article id="new-note-container" class="center mw5 mw6-ns br3 hidden ba b--black-30 mv4">
+        <form id="new-note-form">
+        <div class="f4 bg-moon-gray br3 br--top black-60 mv0 pv2 ph3">
+          <input type="text" id="new-note-title" class="w-100">
+        </div>          
+        <div class="pa3 bt b--black-10">
+          <div class="f6 f5-ns lh-copy measure">
+            <textarea rows="5" id="new-note-text" class="w-100" required></textarea>
+          </div>
+        </div>
+        <div class="f4 bg-near-white br3 br--bottom black-60 mv0 pv2 ph3">
+          <button id="add-note-button" type="submit" class="f6 link dim br2 ph3 pv2 mb2 dib white bg-dark-blue">Add new note</button>
+        </div>
+        </form>
+    </article>
+  </div>
+</body>
+</html>

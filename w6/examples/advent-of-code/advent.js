@@ -74,7 +74,7 @@ function day2a (keys) {
     }
     if (hasXLetters(3, key)) {
       tripCount += 1
-    }    
+    }
   }
 
   $('#day2').append(
@@ -84,7 +84,6 @@ function day2a (keys) {
 
 function hasXLetters (x, string) {
   const letterCounts = letterCounter(string)
-  console.log(letterCounts)
   for (let letter of Object.keys(letterCounts)) {
     let count = letterCounts[letter]
     if (count === x) {
