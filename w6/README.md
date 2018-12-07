@@ -89,5 +89,6 @@ Assignment: [iTunes Search](https://classroom.github.com/a/ZQqeSD8f)
 - Books
   - [Introduction to Computation and Programming Using Python](https://mitpress.mit.edu/books/introduction-computation-and-programming-using-python-second-edition) - _great book_ to teach yourself more CS skills
   - [Programming with the Puzzled](https://mitpress.mit.edu/books/programming-puzzled)
+  - [Exercises in Programming Style](https://www.amazon.com/Exercises-Programming-Style-Cristina-Videira/dp/1482227371)
   - [Data Science from Scratch](http://shop.oreilly.com/product/0636920033400.do) - if you're interested in data science, this will teach you the fundamentals
   - [The Pragmatic Programmer](https://pragprog.com/book/tpp/the-pragmatic-programmer)
